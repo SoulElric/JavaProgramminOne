@@ -1,12 +1,12 @@
 package Chapter6;
 
+import java.util.Scanner;
+
 /**
  * Program to display the password a user was prompted to enter to the console
  *
  * @author Finn Neu
  */
-
-import java.util.Scanner;
 
 public class C6_18 {
 
@@ -17,7 +17,11 @@ public class C6_18 {
         System.out.println(
                 (isValidPassword(password) ? "Valid " : "Invalid ") + "Password");
     }
-
+/**
+ * Method to see if the password a user was prompted to enter to the console was valid
+ * @param password
+ * @return 
+ */
     public static boolean isValidPassword(String password) {
         final int LENGTH_OF_VALID_PASSWORD = 8;
         final int MINIMUM_NUMBER_OF_DIGITS = 2;
