@@ -9,7 +9,11 @@ import java.util.Scanner;
  */
 
 public class C6_18 {
-
+  /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create a Scanner
         System.out.print("Enter a password: ");
@@ -19,8 +23,8 @@ public class C6_18 {
     }
 /**
  * Method to see if the password a user was prompted to enter to the console was valid
- * @param password
- * @return 
+ * @param password the users password
+ * @return true or false
  */
     public static boolean isValidPassword(String password) {
         final int LENGTH_OF_VALID_PASSWORD = 8;
@@ -33,17 +37,17 @@ public class C6_18 {
     }
 /**
  * Method to see if the password a user was prompted to enter to the console has the correct length
- * @param password
- * @param validLength
- * @return 
+ * @param password the users password
+ * @param validLength the length of the users password
+ * @return true or false 
  */
     public static boolean isLengthValid(String password, int validLength) {
         return password.length() >= validLength;
     }
 /**
  * Method to see if the password a user was prompted to enter to the console has only letters and digits
- * @param password
- * @return 
+ * @param password the users password
+ * @return false
  */
     public static boolean isOnlyLettersAndDigits(String password) {
         for (int i = 0; i < password.length(); i++) {
@@ -55,9 +59,9 @@ public class C6_18 {
     }
 /**
  * Method to see if the password a user was prompted to enter to the console has the digits required
- * @param password
- * @param n
- * @return 
+ * @param password the users password 
+ * @param n number of digits in the password
+ * @return true
  */
     public static boolean hasNDigits(String password, int n) {
         int numberOfDigits = 0;
