@@ -9,7 +9,11 @@ import java.util.Scanner;
  */
 
 public class P5 {
-
+  /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         int y = 0;
         int n = 0;
