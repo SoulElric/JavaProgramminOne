@@ -37,7 +37,7 @@ public class C8_4 {
         return totals;
     }
 /**
- * 
+ * Method to sort the array 
  * @param m the array
  */
     public static void sort(int[][] m) {

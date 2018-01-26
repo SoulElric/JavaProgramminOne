@@ -63,7 +63,7 @@ public class P8 {
 
     }
 /**
- * 
+ * Method to see if it is A,B,C,D
  * @param iD Identification
  * @param array the array
  * @return row
@@ -89,7 +89,7 @@ public class P8 {
 
     }
 /**
- * 
+ * Method to see if it was M,T,W,H,F
  * @param day the day 
  * @param array the array 
  * @return col
