@@ -22,7 +22,6 @@ public class C8_4 {
     }
 
     public static int[][] sumRows(int[][] m) {
-        // Create a 7-by-2 matrix
         int[][] totals = new int[m.length][2];
         for (int row = 0; row < m.length; row++) {
             totals[row][0] = row;
@@ -33,7 +32,10 @@ public class C8_4 {
         }
         return totals;
     }
-
+/**
+ * 
+ * @param m the array
+ */
     public static void sort(int[][] m) {
         for (int i = 0; i < m.length; i++) {
             int maxCol0 = m[i][0];
@@ -54,7 +56,11 @@ public class C8_4 {
             }
         }
     }
-
+/**
+ * 
+ * @param m the array 
+ * @param totalHours the total number of hours 
+ */
     public static void print(int[][] m , int[][] totalHours) {
         System.out.println("Employee     Weekly Hours");
         System.out.println("-------------------------");
