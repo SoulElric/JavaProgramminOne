@@ -26,9 +26,18 @@ public class P7 {
             array[counter] = input.nextInt();
          }
         }
+            /**
+             * 
+             * @param array to display the array
+             */
           public static void displayArray(int [] array){
                System.out.print("The elements of the Array are : " + Arrays.toString(array));
           }
+          /**
+           * 
+           * @param array the average of the array
+           * @param total the grand total of the array
+           */
           public static void averageArray(int [] array, int total){
               int sum = 0;
               for( int counter = 0; counter < array.length; counter++){
