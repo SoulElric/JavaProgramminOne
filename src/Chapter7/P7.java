@@ -3,13 +3,14 @@ package Chapter7;
 import java.util.Scanner;
 import java.util.*;
 
- /**
+
+
+public class P7 {
+     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-
-public class P7 {
      public static void main(String[] args) {
          Scanner input = new Scanner(System.in);
          System.out.print("Enter the number of elements: ");
@@ -21,6 +22,11 @@ public class P7 {
          averageArray(array, total);
          displayArray(array);
      }
+     /**
+      * 
+      * @param array to fill the array 
+      * @param input the user input 
+      */
             public static void fillArray(int [] array, Scanner input){
             for( int counter = 0; counter < array.length; counter++){
             array[counter] = input.nextInt();
