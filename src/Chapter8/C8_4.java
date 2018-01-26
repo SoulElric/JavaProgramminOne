@@ -1,11 +1,15 @@
 package Chapter8;
 
 /**
- *
+ *Program to display an array that shows how long an employee worked to the console
  * @author fn0911146
  */
 public class C8_4 {
-
+ /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         int[][] weeklyHours = {{2, 4, 3, 4, 5, 8, 8},
         {7, 3, 4, 3, 3, 4, 4},

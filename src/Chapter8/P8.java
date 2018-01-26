@@ -1,13 +1,17 @@
 package Chapter8;
 
 /**
- *
+ *Program to display the average work week of an employee to the console
  * @author fn0911146
  */
 import java.util.*;
 
 public class P8 {
-
+ /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
