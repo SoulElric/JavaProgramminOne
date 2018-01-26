@@ -1,11 +1,11 @@
 package Chapter7;
 
+
+ import java.util.*;
 /**
  *Program to display an array that has two lists to the console
  * @author Finn Neu
  */
- import java.util.*;
-
 public class C7_26 {
  /**
      * Main Method

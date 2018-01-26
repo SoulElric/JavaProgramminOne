@@ -2,7 +2,10 @@ package Chapter7;
 
 import java.util.Scanner;
 import java.util.*;
-
+/**
+ *Program to display the of elements of the array to the console
+ * @author Finn Neu
+ */
 public class P7 {
      /**
      * Main Method
