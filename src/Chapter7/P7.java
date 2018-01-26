@@ -3,8 +3,6 @@ package Chapter7;
 import java.util.Scanner;
 import java.util.*;
 
-
-
 public class P7 {
      /**
      * Main Method
