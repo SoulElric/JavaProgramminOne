@@ -1,13 +1,17 @@
 package Chapter7;
 
 /**
- *
+ *Program to display an array that has two lists to the console
  * @author Finn Neu
  */
  import java.util.*;
 
 public class C7_26 {
-
+ /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

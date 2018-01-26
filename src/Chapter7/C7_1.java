@@ -1,13 +1,17 @@
 package Chapter7;
 
 /**
- *
+ *Program to display the score a student made on a test to the console
  * @author Finn Neu
  */
 import java.util.*;
 
 public class C7_1 {
-
+ /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         
                 Scanner input = new Scanner(System.in);

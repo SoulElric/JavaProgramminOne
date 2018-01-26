@@ -3,11 +3,11 @@ package Chapter7;
 import java.util.Scanner;
 import java.util.*;
 
-/**
- * Program to display the password a user was prompted to enter to the console
- *
- * @author Finn Neu
- */
+ /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
 
 public class P7 {
      public static void main(String[] args) {

@@ -3,13 +3,17 @@ package Chapter7;
 import java.util.Scanner;
  
  /**
- * Program to display the password a user was prompted to enter to the console
+ * Program to display an array of 10 numbers that has a minimum number to the console
  *
  * @author Finn Neu
  */
 
 public class C7_9 {
- 
+  /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
  public static void main(String[] args) {
   // TODO Auto-generated method stub
   System.out.print("Enter ten numbers:");
