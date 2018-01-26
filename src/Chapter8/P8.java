@@ -1,11 +1,11 @@
 package Chapter8;
 
+
+import java.util.*;
 /**
  *Program to display the average work week of an employee to the console
  * @author fn0911146
  */
-import java.util.*;
-
 public class P8 {
  /**
      * Main Method
