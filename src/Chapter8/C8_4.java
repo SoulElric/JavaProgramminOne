@@ -61,7 +61,7 @@ public class C8_4 {
         }
     }
 /**
- * 
+ * Method to print out the Employee and the weekly hours they have worked
  * @param m the array 
  * @param totalHours the total number of hours 
  */
