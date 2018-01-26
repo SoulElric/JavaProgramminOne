@@ -27,14 +27,14 @@ public class P7 {
          }
         }
             /**
-             * 
+             * Method to display the array
              * @param array to display the array
              */
           public static void displayArray(int [] array){
                System.out.print("The elements of the Array are : " + Arrays.toString(array));
           }
           /**
-           * 
+           * Method to see what the average array is
            * @param array the average of the array
            * @param total the grand total of the array
            */
