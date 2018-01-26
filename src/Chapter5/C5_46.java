@@ -1,18 +1,21 @@
 package Chapter5;
+
 import java.util.Scanner;
 
 /**
- * Program to display the string the user is asked to enter in reverse to the console
+ * Program to display the string the user is asked to enter in reverse to the
+ * console
  *
  * @author Finn Neu
  */
 public class C5_46 {
-      /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-	   public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String string = input.nextLine();

@@ -1,15 +1,16 @@
 package Chapter5;
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
 /**
- * Program to display the total number of votes for yes and no and how many invalid ones you get to the console
+ * Program to display the total number of votes for yes and no and how many
+ * invalid ones you get to the console
  *
  * @author Finn Neu
  */
-
 public class P5 {
-  /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt

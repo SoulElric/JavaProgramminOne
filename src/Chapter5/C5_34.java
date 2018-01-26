@@ -7,9 +7,9 @@ import java.util.Scanner;
  *
  * @author Finn Neu
  */
-
 public class C5_34 {
-  /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
