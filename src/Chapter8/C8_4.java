@@ -1,11 +1,14 @@
 package Chapter8;
 
 /**
- *Program to display an array that shows how long an employee worked to the console
+ * Program to display an array that shows how long an employee worked to the
+ * console
+ *
  * @author fn0911146
  */
 public class C8_4 {
- /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -22,7 +25,7 @@ public class C8_4 {
         int[][] totalHours = sumRows(weeklyHours);
         sort(totalHours);
         print(weeklyHours, totalHours);
-        
+
     }
 
     public static int[][] sumRows(int[][] m) {
@@ -36,10 +39,12 @@ public class C8_4 {
         }
         return totals;
     }
-/**
- * Method to sort the array 
- * @param m the array
- */
+
+    /**
+     * Method to sort the array
+     *
+     * @param m the array
+     */
     public static void sort(int[][] m) {
         for (int i = 0; i < m.length; i++) {
             int maxCol0 = m[i][0];
@@ -60,12 +65,14 @@ public class C8_4 {
             }
         }
     }
-/**
- * Method to print out the Employee and the weekly hours they have worked
- * @param m the array 
- * @param totalHours the total number of hours 
- */
-    public static void print(int[][] m , int[][] totalHours) {
+
+    /**
+     * Method to print out the Employee and the weekly hours they have worked
+     *
+     * @param m the array
+     * @param totalHours the total number of hours
+     */
+    public static void print(int[][] m, int[][] totalHours) {
         System.out.println("Employee     Weekly Hours");
         System.out.println("-------------------------");
         for (int row = 0; row < m.length; row++) {

@@ -1,20 +1,22 @@
 package Chapter7;
 
-
 import java.util.*;
+
 /**
- *Program to display the score a student made on a test to the console
+ * Program to display the score a student made on a test to the console
+ *
  * @author Finn Neu
  */
 public class C7_1 {
- /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
     public static void main(String[] args) {
-        
-                Scanner input = new Scanner(System.in);
+
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of students:\t");
         int numbers[] = new int[input.nextInt()];
 
@@ -22,11 +24,12 @@ public class C7_1 {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = input.nextInt();
         }
-        
+
         int best = numbers[0];
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > best)
-            best = numbers[i];
+            if (numbers[i] > best) {
+                best = numbers[i];
+            }
         }
 
         for (int i = 0; i < numbers.length; i++) {
@@ -34,12 +37,13 @@ public class C7_1 {
         }
 
     }
-/**
- * 
- * @param numbers the scores 
- * @param best the best of those scores
- * @return A,B,C,D,F
- */
+
+    /**
+     *
+     * @param numbers the scores
+     * @param best the best of those scores
+     * @return A,B,C,D,F
+     */
     public static char grade(int numbers, int best) {
 
         if (numbers >= (best - 10)) {

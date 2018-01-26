@@ -1,15 +1,13 @@
 package Chapter6;
 
-
-
 import java.util.Scanner;
 
 /**
- * Program to display the conversion of how many Euros, Pounds, and Yen the US dollar can buy to the console
+ * Program to display the conversion of how many Euros, Pounds, and Yen the US
+ * dollar can buy to the console
  *
  * @author Finn Neu
  */
-
 public class P6 {
 
     public static void main(String[] args) {

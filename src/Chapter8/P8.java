@@ -1,13 +1,15 @@
 package Chapter8;
 
-
 import java.util.*;
+
 /**
- *Program to display the average work week of an employee to the console
+ * Program to display the average work week of an employee to the console
+ *
  * @author fn0911146
  */
 public class P8 {
- /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -62,12 +64,14 @@ public class P8 {
         }
 
     }
-/**
- * Method to see if it is A,B,C,D
- * @param iD Identification
- * @param array the array
- * @return row
- */
+
+    /**
+     * Method to see if it is A,B,C,D
+     *
+     * @param iD Identification
+     * @param array the array
+     * @return row
+     */
     public static int row(String iD, double array[][]) {
 
         int row = 0;
@@ -88,12 +92,14 @@ public class P8 {
         return row;
 
     }
-/**
- * Method to see if it was M,T,W,H,F
- * @param day the day 
- * @param array the array 
- * @return col
- */
+
+    /**
+     * Method to see if it was M,T,W,H,F
+     *
+     * @param day the day
+     * @param array the array
+     * @return col
+     */
     public static int column(String day, double array[][]) {
 
         int col = 0;
